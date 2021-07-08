@@ -773,17 +773,23 @@ img {
 }
 
 .button-close {
-  border: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
   cursor: pointer;
 
-  /* width: 30px;
-  height: 30px; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
 
   background-color: transparent;
 }
 .icon-close {
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
 }
 .is-hidden {
   opacity: 0;
